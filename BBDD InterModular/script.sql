@@ -19,7 +19,7 @@ CREATE TABLE coches (
 );
 
 CREATE TABLE motos (
-    id_motos INT PRIMARY KEY,
+    id INT PRIMARY KEY,
     tipo_motor VARCHAR(50) NOT NULL,
     cilindrada INT NOT NULL CHECK (cilindrada > 0),
     FOREIGN KEY (id) REFERENCES vehiculos(id) ON DELETE CASCADE
