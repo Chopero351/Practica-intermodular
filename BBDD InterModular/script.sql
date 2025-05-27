@@ -12,7 +12,7 @@ CREATE TABLE vehiculos (
 
 
 CREATE TABLE coches (
-    id_coches INT PRIMARY KEY,
+    id INT PRIMARY KEY,
     num_puertas INT NOT NULL CHECK (num_puertas IN (2,3,4,5)),
     tipo_carroceria ENUM('sedan','hatchback','SUV','coupe','convertible') NOT NULL,
     FOREIGN KEY (id) REFERENCES vehiculos(id) ON DELETE CASCADE
@@ -27,7 +27,7 @@ CREATE TABLE motos (
 
 
 CREATE TABLE datos_curiosos (
-    id_motos INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT PRIMARY KEY,
     id_vehiculo INT NOT NULL,
     curiosidad TEXT NOT NULL,
     FOREIGN KEY (id_vehiculo) REFERENCES vehiculos(id) ON DELETE CASCADE
