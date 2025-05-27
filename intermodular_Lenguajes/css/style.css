@@ -25,4 +25,35 @@ nav ul{
 nav li{
     margin: 0 15px;;
 }
-nav li
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    padding: 2opx;
+    max-width: 1000px;
+    margin: 20px 0;
+}
+
+section{
+    margin-bottom: 30px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;  
+    margin: 20 px 0;
+}
+th, td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th{
+    background-color: #f2f2f2;
+}
