@@ -28,9 +28,10 @@ Vamos a usar FileZilla para transferir los archivos de la pagina a la maquina vi
 - Pasamos los archivos a la carpeta /home/Ubuntu
 - Y ya una vez dentro de la maquina virtual pasamos los archivos a la carpeta /home/ubuntu/tu_carpeta /var/www/HTML
 
-(Captura de pantalla de FileZilla)
+![Instancia EC2](./capturas/captura3.png)
 
 ## 4. Página cargando correctamente desde el navegador
 
 Ya para terminar abriremos la pagina web desde el navegador:
-(Captura de la pagina)
+
+![Instancia EC2](./capturas/captura4.png)
