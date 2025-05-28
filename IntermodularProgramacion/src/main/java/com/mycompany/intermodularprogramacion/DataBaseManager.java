@@ -8,9 +8,9 @@ import java.util.List;
 
 public class DataBaseManager {
 
-    private static final String URL = "jdbc:mysql://localhost:3306/practica_intermodular";
-    private static final String USER = "root";
-    private static final String PASSWORD = "Med@c";
+    private static final String URL = "jdbc:mysql://database-1.cghemut0tkob.us-east-1.rds.amazonaws.com/practica_intermodular";
+    private static final String USER = "admin";
+    private static final String PASSWORD = "Medac123456";
 
     private Connection connection;
 
