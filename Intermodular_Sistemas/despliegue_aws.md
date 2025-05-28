@@ -17,7 +17,7 @@ Se creó una nueva instancia EC2 con las siguientes características:
 - Con "sudo apt install tasksel" una vez instalado lanzamos la herramienta.
 - Seleccionas el apartado web server y lo instalamos.
 
-(Captura de pantalla de la instalación)
+![Instancia EC2](./capturas/captura2.png)
 
 
 ## 3. Transferir los archivos de la pagina web
