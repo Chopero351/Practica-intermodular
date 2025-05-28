@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,10 +10,10 @@ body {
     line-height: 1.6;
     background-color: #f9f9f9;
     color: #333;
-    padding-top: 80px; /* espacio para menú fijo */
+    padding-top: 80px; 
 }
 
-/* Encabezado */
+
 header {
     background-color: #1a73e8;
     color: white;
@@ -53,14 +53,14 @@ nav a:hover {
     color: #ffd369;
 }
 
-/* Contenido principal */
+
 main {
     max-width: 1000px;
     margin: auto;
     padding: 30px 20px;
 }
 
-/* Secciones */
+
 section {
     margin-bottom: 40px;
 }
@@ -72,7 +72,7 @@ section h2 {
     padding-bottom: 5px;
 }
 
-/* Tablas */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -97,7 +97,7 @@ tbody tr:hover {
     background-color: #f7f7f7;
 }
 
-/* Botones dinámicos */
+
 button {
     padding: 8px 14px;
     margin: 10px 0;
@@ -114,7 +114,7 @@ button:hover {
     background-color: #155ec2;
 }
 
-/* Pie de página */
+
 footer {
     text-align: center;
     padding: 20px;
@@ -124,7 +124,7 @@ footer {
     color: #555;
 }
 
-/* Tema oscuro */
+
 body.oscuro {
     background-color: #121212;
     color: #e0e0e0;
