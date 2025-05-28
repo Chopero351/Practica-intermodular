@@ -10,11 +10,7 @@ Se creó una nueva instancia EC2 con las siguientes características:
 - Tipo de instancia: t2.micro (dentro del nivel gratuito)
 - Grupo de seguridad: Puertos abiertos HTTP (80) y SSH (22)
 
-**Captura de la instancia creada:**
-
-![Instancia EC2](./capturas/instancia_ec2.png)
-
----
+![Instancia EC2](./capturas/captura1.png)
 
 ## 2. Instalación del servidor web
 
